@@ -80,7 +80,7 @@ movies.splice(2,1);  //2nd index se 1 element delete hogr
 let avenger={
     "name":"steve",
     place:"Queens",
-    skills:[
+    "skills":[
         "Martial Arts",
         "Taekwondo",{
         Bestfriend:[
@@ -97,11 +97,11 @@ let avenger={
 console.log(avenger.place);
 console.log(avenger.movies);
 
-//avenger["skills"];
+console.log(avenger["skills"]);
 
 //bracket notation
 let key="age";
 console.log(avenger.key);
-console.log(avenger.skills[2]["Bestfriend"][1].skills[0].substring(4));
+console.log(avenger.skills[2].Bestfriend[1].skills[0].substring(4));
 
 
