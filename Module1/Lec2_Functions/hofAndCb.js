@@ -17,6 +17,10 @@ function getLastName(fullname){
     return fullname[1];
 }
 
-function sayHii(fullname,fun){
-    
+function callMe(fullname,fun){
+    let name=fun(fullname);
+    console.log(name);
 }
+
+callMe("Steve Rogers" , getFirstName);
+callMe("Tony Stark" , getLastName);
