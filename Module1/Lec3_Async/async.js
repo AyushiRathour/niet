@@ -13,9 +13,9 @@ function cb(error,data){
 console.log("end");
 
 
-//infinite loop
-while(true){
-}
+// //infinite loop
+// while(true){
+// }
 
 
-//what if we need to read multiple files in async mode
+//what if we need to read multiple files in async mode 
