@@ -13,7 +13,7 @@ let htmlKaData = fs.readFileSync("./index.html" , "utf8");
 // jquery
 let ch = cheerio.load(htmlKaData);
 
-// let pTagKaData = ch("p").text();
+let pTagKaData = ch("p").text();
 // <p>Hey this is a p tag !!</p>
 // console.log(pTagKaData);
 
